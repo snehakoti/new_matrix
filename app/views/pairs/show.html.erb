@@ -1,0 +1,17 @@
+<h1> pairing table</h1>
+
+
+<table border="1">
+  <tr>
+    <th>name</th><th>pair_name</th><th>frequency</th>
+  </tr>
+
+<% @pairs.each do |pair| %>
+  <tr>
+    <td><%= pair.name1 %></td>
+    <td><%= pair.name2 %></td>
+    <td><%= pair.frequency %></td>
+
+  </tr>
+<% end %>
+</table>
