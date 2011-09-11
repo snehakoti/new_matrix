@@ -3,6 +3,8 @@ NewMatrix::Application.routes.draw do
   root :to => "pairs#index", :as => :index
 
   match "show" => "pairs#show", :as => :show
+  match "new" => "pairs#new", :as => :new
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

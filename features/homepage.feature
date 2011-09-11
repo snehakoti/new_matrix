@@ -12,7 +12,7 @@ Feature: go to home page
     When I choose the link "show pairs"
     Then I should be directed to the "show" page
 
-  Scenario: Having a new pair link on home page
-    Given I am on the home page
-    When I choose the link "new pair"
-    Then I should be directed to the "new" page
+#  Scenario: Having a new pair link on home page
+#    Given I am on the home page
+#    When I choose the link "new pair"
+#    Then I should be directed to the "new" page

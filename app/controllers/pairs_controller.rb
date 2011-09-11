@@ -17,5 +17,13 @@ class PairsController < ApplicationController
     end
   end
 
+ def new
+    @pair = Pairs.new
+
+    respond_to do |format|
+      format.html # new.html.erb
+      format.json { render json: @pair }
+    end
+  end
 
 end
