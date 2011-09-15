@@ -3,7 +3,7 @@
 
 <h1>New pair</h1>
 
-<form accept-charset="UTF-8" action="/pairs" class="new_pair" id="new_pair" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="gvtLGZt4x7viUHHa1P36q9/YakfYI12sRleYkgGJdII=" /></div>
+<form accept-charset="UTF-8" controller="pairs" action="create" class="new_pair" id="new_pair" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="gvtLGZt4x7viUHHa1P36q9/YakfYI12sRleYkgGJdII=" /></div>
 
   <div class="field">
     <label for="pair_name1">Name1</label><br />
@@ -13,6 +13,10 @@
     <label for="pair_name2">Name2</label><br />
     <input id="pair_name2" name="pair[name2]" size="30" type="text" />
   </div>
+  <!--<div class="field">-->
+    <!--<label for="pair_name2">Frequency</label><br />-->
+    <!--<input id="frequency" name="pair[frequency]" size="30" type="text" />-->
+  <!--</div>-->
   <div class="actions">
     <input name="commit" type="submit" value="Create Pair" />
   </div>
